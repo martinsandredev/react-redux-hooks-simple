@@ -1,0 +1,64 @@
+.App {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(6, 236, 186);
+  font-weight: 400;
+}
+
+.todo {
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin: auto;
+}
+
+.list {
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+  height: 300px;
+  overflow: auto;
+}
+
+.list__item {
+  margin: 20px 0;
+}
+
+.list__label {
+  color: rgb(139, 139, 139);
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+}
+
+.list__actions {
+  padding-top: 10px;
+}
+
+.button {
+  background: rgb(6, 236, 186);
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  height: 32px;
+  padding: 0 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.input {
+  height: 30px;
+  padding: 0;
+  border-radius: 3px;
+  border: 1px solid rgb(6, 236, 186);
+}
+
+.form {
+  padding: 20px;
+  margin-left: 10px;
+}
