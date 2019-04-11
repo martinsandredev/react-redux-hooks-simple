@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { Provider } from "./store";
-import Todo from "./Todo";
+import { Provider } from "./redux";
+import store from "./store";
+import { Todo } from "./components";
 
 import "./styles.css";
 
 const App = () => (
-  <Provider>
+  <Provider store={store}>
     <div className="App">
       <h1>Todo List com Redux Hooks</h1>
       <Todo />

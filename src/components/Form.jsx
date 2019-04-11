@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { actionAdd } from "./reducer";
-import connect from "./connect";
+import { actionAdd } from "./../store/todo/actions";
+import { connect } from "./../redux";
 
 const Form = ({ add }) => {
   const [text, setText] = useState("");

@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import connect from "./connect";
+import React from "react";
 import List from "./List";
 import Form from "./Form";
 
